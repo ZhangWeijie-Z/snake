@@ -25,7 +25,7 @@ body {
     align-items: center;
     // 设置主轴对齐方式
     justify-content: space-around;
-    transition: all .5s;
+    transition: all 0.5s;
 
     // 游戏主舞台
     #stage {
@@ -33,11 +33,11 @@ body {
         height: 304px;
         border: 2px solid black;
         position: relative;
-        transition: all .5s;
+        transition: all 0.5s;
 
         // 设置蛇的样式
         #snake {
-            & > div:first-child{
+            & > div:first-child {
                 background-color: red;
             }
             & > div {
@@ -60,7 +60,7 @@ body {
             flex-flow: row wrap;
             justify-content: space-between;
             align-content: space-between;
-            & > div{
+            & > div {
                 width: 4px;
                 height: 4px;
                 background-color: black;

@@ -40,6 +40,7 @@ class Food {
         } else {
             this.element.style.left = left + 'px'
             this.element.style.top = top + 'px'
+            this.element.style.transition = 'all .5s'
         }
     }
 }
